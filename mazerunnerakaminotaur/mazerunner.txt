@@ -1,0 +1,5 @@
+"liferp"
+{
+	"title"		"LifeRP"
+	"base"		"base"
+}
