@@ -1,6 +1,6 @@
 "AddonInfo"
 {
 	"name" "ZS Leveling & Rewards"
-	"author_name" "Heracles421"
+	"author_name" "yea"
 	"info" " { 	"description": "An addon that adds a leveling system, as well as rewards for killing zombies", 	"type": "servercontent", 	"tags":  	[] }"
 }
