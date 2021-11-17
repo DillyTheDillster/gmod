@@ -1,0 +1,10 @@
+net.Receive("_dillyNotification", function()
+	local msg = net.ReadString()
+	local typeof = net.ReadInt(32)
+	notification.AddLegacy(msg, typeof, 4)
+end)
+
+net.Receive("_dillyOpenTopLvlsFrame", function()
+	_DILLY.topLevels = util.JSONToTable(net.ReadString())
+	_DILLY:TopLvlsFrame()
+end)
